@@ -8,6 +8,7 @@ This repo also supports a YouTube URL input, but the quickest way to try it is w
 
 - Python 3.10+ recommended
 - `ffmpeg` installed and available on `PATH`
+- `uv` installed ([official install docs](https://docs.astral.sh/uv/getting-started/installation/))
 - Internet access on first run (Whisper downloads model weights once)
 
 ### Install ffmpeg
@@ -41,6 +42,12 @@ cd yt_transcriber
 ```
 
 Create venv and install deps with `uv`:
+
+If `uv` is not installed yet, install it first:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
 ```bash
 uv venv .venv
