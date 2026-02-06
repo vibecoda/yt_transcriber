@@ -33,10 +33,11 @@ ffmpeg -version
 
 ## Quick Start (with repo video)
 
-From repo root:
+Clone and enter the repository:
 
 ```bash
-cd /Users/ss/dev/gitlab/notes/yt_transcriber
+git clone https://github.com/vibecoda/yt_transcriber.git
+cd yt_transcriber
 ```
 
 Create venv and install deps with `uv`:
